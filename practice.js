@@ -42,7 +42,13 @@
 
 
 
-
+function fibonacciFinder50() {
+    for(n=0; n<1000; n++){
+        if (n =50){
+            console.log('Fib')
+        }
+    }
+}
 
 
 
