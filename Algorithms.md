@@ -16,3 +16,15 @@
 - Does the function break the list into smaller chunks? You could have O(log(N)).
 - Is the amount of work the same, regardless of the size of the data set? You might have O(1).
 
+# Recursion
+- Put simple recursion is when a function calls itself 
+function countDown(num){
+  if(num < 0){
+    return;
+  }
+  console.log(num)
+  return countDown(num - 1)
+}
+Base case: When the process can stop. Line 21-24 
+Action: Put that function to work!
+Recursive case: The function is called again but with the assurance that progress is being made toward the base case.
