@@ -15,8 +15,14 @@
 // Reverse Words 
 // Write a function that will take a given string 181 and reverse the order of the words. “Hello world” becomes “world Hello” and “May the Fourth be with you” becomes “you with be Fourth the May”
 
+function reverseWords(str){
+    let newStr = str.split(' ').reverse()
+    newStr.map((w, index) => {
+        console.log(w, index)
+    })
+}
 
-
+reverseWords('My name is Ben')
 
 
 
@@ -42,13 +48,13 @@
 
 
 
-function fibonacciFinder50() {
-    for(n=0; n<1000; n++){
-        if (n =50){
-            console.log('Fib')
-        }
-    }
-}
+// function fibonacciFinder50() {
+//     for(n=0; n<1000; n++){
+//         if (n =50){
+//             console.log('Fib')
+//         }
+//     }
+// }
 
 
 
@@ -70,13 +76,13 @@ function fibonacciFinder50() {
 
 
 
-function primeNumberDetector(n){
-    if(n % n === 0 && n % 1 === 0){
-        console.log(true)
-    }
-}
+// function primeNumberDetector(n){
+//     if(n % n === 0 && n % 1 === 0){
+//         console.log(true)
+//     }
+// }
 
-primeNumberDetector(13)
+// primeNumberDetector(13)
 
 
 
