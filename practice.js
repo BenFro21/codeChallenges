@@ -15,14 +15,35 @@
 // Reverse Words 
 // Write a function that will take a given string 181 and reverse the order of the words. “Hello world” becomes “world Hello” and “May the Fourth be with you” becomes “you with be Fourth the May”
 
-function reverseWords(str){
-    let newStr = str.split(' ').reverse()
-    newStr.map((w, index) => {
-        console.log(w, index)
-    })
+// function reverseWords(str){
+//     let newStr = str.split(' ').reverse()
+//     newStr.map((w, index) => {
+//         console.log(w, index)
+//     })
+// }
+
+// reverseWords('My name is Ben')
+
+
+function find_total(my_numbers) {
+    //Insert your code here 
+    // 1 point for ever even number
+    let total =0
+   
+   my_numbers.map(n => {
+        if(n % 2 === 0){
+            console.log(total)
+           total = total + 1
+       }else if(n === 5){
+           total = total + 5
+       }else if( n % 2 !== 0 && n !== 5){
+           total = total + 3
+       }
+    }) 
+    console.log(total)
 }
 
-reverseWords('My name is Ben')
+find_total([1,2,3,4,5])
 
 
 
