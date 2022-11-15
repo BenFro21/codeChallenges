@@ -25,25 +25,25 @@
 // reverseWords('My name is Ben')
 
 
-function find_total(my_numbers) {
-    //Insert your code here 
-    // 1 point for ever even number
-    let total =0
+// function find_total(my_numbers) {
+//     //Insert your code here 
+//     // 1 point for ever even number
+//     let total =0
    
-   my_numbers.map(n => {
-        if(n % 2 === 0){
-            console.log(total)
-           total = total + 1
-       }else if(n === 5){
-           total = total + 5
-       }else if( n % 2 !== 0 && n !== 5){
-           total = total + 3
-       }
-    }) 
-    console.log(total)
-}
+//    my_numbers.map(n => {
+//         if(n % 2 === 0){
+//             console.log(total)
+//            total = total + 1
+//        }else if(n === 5){
+//            total = total + 5
+//        }else if( n % 2 !== 0 && n !== 5){
+//            total = total + 3
+//        }
+//     }) 
+//     console.log(total)
+// }
 
-find_total([1,2,3,4,5])
+// find_total([1,2,3,4,5])
 
 
 
@@ -148,3 +148,36 @@ find_total([1,2,3,4,5])
  
 
 // Follow up: Can you solve it using O(1) (i.e. constant) memory?
+
+
+
+
+
+
+/// WORD FIZZ BUZZ  MORE ADVANCE FROM GORILLA TESTING 
+// 1) takes in a number and prints a result depending on 
+// If the number ends with 0 it prints 'zero'
+// If the number ends with 5 it prints 'five'
+// If the number is even print 'even'
+//if the number is odd print 'odd'
+
+function readNum(num){
+   let strNum = num.toString()
+   let strArry = strNum.split('')
+   let testNum = strArry.splice(strArry.length -1)
+//    console.log(testNum )
+   if(num % 2 === 0 && testNum == 0){
+    console.log('zero')
+   }else if(num % 2 !==0 && testNum == 5 ){
+    console.log('five')
+   }else if(num % 2 === 0){
+    console.log('even')
+   }else if(num % 2 !== 0){
+    console.log('odd')
+   }
+}
+
+readNum(1000)
+readNum(555)
+readNum(127)
+readNum(82)
