@@ -161,23 +161,46 @@
 // If the number is even print 'even'
 //if the number is odd print 'odd'
 
-function readNum(num){
-   let strNum = num.toString()
-   let strArry = strNum.split('')
-   let testNum = strArry.splice(strArry.length -1)
-//    console.log(testNum )
-   if(num % 2 === 0 && testNum == 0){
-    console.log('zero')
-   }else if(num % 2 !==0 && testNum == 5 ){
-    console.log('five')
-   }else if(num % 2 === 0){
-    console.log('even')
-   }else if(num % 2 !== 0){
-    console.log('odd')
-   }
-}
+// function readNum(num){
+//    let strNum = num.toString()
+//    let strArry = strNum.split('')
+//    let testNum = strArry.splice(strArry.length -1)
+// //    console.log(testNum )
+//    if(num % 2 === 0 && testNum == 0){
+//     console.log('zero')
+//    }else if(num % 2 !==0 && testNum == 5 ){
+//     console.log('five')
+//    }else if(num % 2 === 0){
+//     console.log('even')
+//    }else if(num % 2 !== 0){
+//     console.log('odd')
+//    }
+// }
+// readNum(1000)
+// readNum(555)
+// readNum(127)
+// readNum(82)
 
-readNum(1000)
-readNum(555)
-readNum(127)
-readNum(82)
+
+
+
+// Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+// An input string is valid if:
+// Open brackets must be closed by the same type of brackets.
+// Open brackets must be closed in the correct order.
+// Every close bracket has a corresponding open bracket of the same type.
+
+
+var isValid = function(s) {
+   let splitSArr = s.split('')
+   splitSArr.map(char => {
+       if(char[0] === '(' && char[1] === ')'){
+           return true
+       }
+       console.log(char[0])
+   })
+};
+
+isValid('()')
+
+
