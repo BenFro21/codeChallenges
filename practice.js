@@ -1,7 +1,5 @@
 // Bianry serch Tree 
-
 // You are given a list of numbers stored in a list, A. Your challenge is to build a [Binary Search Tree] (Binary search tree - Wikipedia 959) to store these numbers. You will need to:
-
 // 1 Represent each node of the tree (including its data, left child and right child).
 // 2 Print the tree out in an understandable form.
 // 3 Make a function to insert a list of numbers (A) into the tree.
@@ -11,7 +9,7 @@
 
 
 
-
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Reverse Words 
 // Write a function that will take a given string 181 and reverse the order of the words. “Hello world” becomes “world Hello” and “May the Fourth be with you” becomes “you with be Fourth the May”
 
@@ -47,19 +45,8 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Write a function, fibonacciFinder50, that will find the 50th number in the Fibonacci Sequence.
-
 // Function Name: fibonacciFinder50
 // Input: There are no parameters to this function
 // Output: an integer, the 50th number in the Fibonacci Sequence
@@ -80,16 +67,8 @@
 
 
 
-
-
-
-
-
-
-
-
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Write a function, primeNumberDetector, that tests if a number, n is a prime number.
-
 // Function Name: primeNumberDetector
 // Input: integer n
 // Output: boolean: true if n is a prime number else false.
@@ -111,48 +90,34 @@
 
 
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Given head, the head of a linked list, determine if the linked list has a cycle in it.
-
 // There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the next pointer. Internally, pos is used to denote the index of the node that tail's next pointer is connected to. Note that pos is not passed as a parameter.
-
 // Return true if there is a cycle in the linked list. Otherwise, return false.
-
- 
-
 // Example 1:
-
-
 // Input: head = [3,2,0,-4], pos = 1
 // Output: true
 // Explanation: There is a cycle in the linked list, where the tail connects to the 1st node (0-indexed).
 // Example 2:
-
-
 // Input: head = [1,2], pos = 0
 // Output: true
 // Explanation: There is a cycle in the linked list, where the tail connects to the 0th node.
 // Example 3:
-
-
 // Input: head = [1], pos = -1
 // Output: false
 // Explanation: There is no cycle in the linked list.
- 
-
 // Constraints:
-
 // The number of the nodes in the list is in the range [0, 104].
 // -105 <= Node.val <= 105
 // pos is -1 or a valid index in the linked-list.
- 
-
 // Follow up: Can you solve it using O(1) (i.e. constant) memory?
 
 
 
 
 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /// WORD FIZZ BUZZ  MORE ADVANCE FROM GORILLA TESTING 
 // 1) takes in a number and prints a result depending on 
@@ -183,7 +148,7 @@
 
 
 
-
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 // An input string is valid if:
 // Open brackets must be closed by the same type of brackets.
@@ -191,16 +156,37 @@
 // Every close bracket has a corresponding open bracket of the same type.
 
 
-var isValid = function(s) {
-   let splitSArr = s.split('')
-   splitSArr.map(char => {
-       if(char[0] === '(' && char[1] === ')'){
-           return true
-       }
-       console.log(char[0])
-   })
-};
+// var isValid = function(s) {
+//    let splitSArr = s.split('')
+//    splitSArr.map(char => {
+//        if(char[0] === '(' && char[1] === ')'){
+//            return true
+//        }
+//        console.log(char[0])
+//    })
+// };
 
-isValid('()')
+// isValid('()')
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// You are given the heads of two sorted linked lists list1 and list2.
+// Merge the two lists in a one sorted list. The list should be made by splicing together the nodes of the first two lists.
+// Return the head of the merged linked list.
+
+let list1Case1 = [1,2,4]
+let list2Case1 = [1,3,4]
+
+let list1Case2 = []
+let list2Case2 = []
+
+let list1Case3 = []
+let list2Case3 = [0]
 
 
+let mergeTwoLists = function(list1, list2) {
+   let newList = list1.concat(list2).sort()
+   return console.log(newList)
+}
+
+
+mergeTwoLists(list1Case1, list2Case1)
