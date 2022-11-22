@@ -173,20 +173,30 @@
 // Merge the two lists in a one sorted list. The list should be made by splicing together the nodes of the first two lists.
 // Return the head of the merged linked list.
 
-let list1Case1 = [1,2,4]
-let list2Case1 = [1,3,4]
+// let list1Case1 = [1,2,4]
+// let list2Case1 = [1,3,4]
 
-let list1Case2 = []
-let list2Case2 = []
+// let list1Case2 = []
+// let list2Case2 = []
 
-let list1Case3 = []
-let list2Case3 = [0]
+// let list1Case3 = []
+// let list2Case3 = [0]
 
 
-let mergeTwoLists = function(list1, list2) {
-   let newList = list1.concat(list2).sort()
-   return console.log(newList)
+// let mergeTwoLists = function(list1, list2) {
+//    let newList = list1.concat(list2).sort()
+//    return console.log(newList)
+// }
+// mergeTwoLists(list1Case1, list2Case1)
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique element appears only once. The relative order of the elements should be kept the same.
+// Since it is impossible to change the length of the array in some languages, you must instead have the result be placed in the first part of the array nums. More formally, if there are k elements after removing the duplicates, then the first k elements of nums should hold the final result. It does not matter what you leave beyond the first k elements.
+// Return k after placing the final result in the first k slots of nums.
+// Do not allocate extra space for another array. You must do this by modifying the input array in-place with O(1) extra memory.
+
+
+let removeDuplicates = function(nums){
+   
 }
-
-
-mergeTwoLists(list1Case1, list2Case1)
