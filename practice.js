@@ -214,3 +214,30 @@ let removeDuplicates = function(nums){
 var removeElement = function(nums, val) {
     
 };
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+// You must write an algorithm with O(log n) runtime complexity.
+
+let serchInsert = function(nums, target){
+    nums.forEach((n, index) => {
+        if(n === target){
+            console.log(index)
+            return index
+        }else if(n !== target){
+            console.log(nums.length + 1)
+        }
+    })
+}
+
+
+let testNums = [1,3,5,6]
+let testTarget = 5
+
+serchInsert(testNums, testTarget)
