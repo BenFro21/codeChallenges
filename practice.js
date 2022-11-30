@@ -225,19 +225,48 @@ var removeElement = function(nums, val) {
 // Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
 // You must write an algorithm with O(log n) runtime complexity.
 
-let serchInsert = function(nums, target){
-    nums.forEach((n, index) => {
-        if(n === target){
-            console.log(index)
-            return index
-        }else if(n !== target){
-            console.log(nums.length + 1)
-        }
-    })
+// let serchInsert = function(nums, target){
+//     nums.forEach((n, index) => {
+//         if(n === target){
+//             console.log(index)
+//             return index
+//         }else if(n !== target){
+//             console.log(nums.length + 1)
+//         }
+//     })
+// }
+
+
+// let testNums = [1,3,5,6]
+// let testTarget = 5
+
+// serchInsert(testNums, testTarget)
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// There is a large pile of socks that must be paired by color. Given an array of integers representing the color of each sock, determine how many pairs of socks with matching colors there are.
+// Example
+// There is one pair of color  and one of color . There are three odd socks left, one of each color. The number of pairs is .
+// Function Description
+// Complete the sockMerchant function in the editor below.
+// sockMerchant has the following parameter(s):
+// int n: the number of socks in the pile
+// int ar[n]: the colors of each sock
+// Returns
+// int: the number of pairs
+// Input Format
+// The first line contains an integer , the number of socks represented in .
+// The second line contains  space-separated integers, , the colors of the socks in the pile.
+
+
+function sockMerchant(n, ar) {
+    let total = 0
+    // Write your code here
+  for(let i=0; i <= n; i++){
+      ar.map(j => {
+          console.log(j)
+      })
+  }
+  return total
 }
 
-
-let testNums = [1,3,5,6]
-let testTarget = 5
-
-serchInsert(testNums, testTarget)
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
