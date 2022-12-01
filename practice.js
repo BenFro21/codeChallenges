@@ -222,8 +222,6 @@ var removeElement = function(nums, val) {
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-// Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
-// You must write an algorithm with O(log n) runtime complexity.
 
 // let serchInsert = function(nums, target){
 //     nums.forEach((n, index) => {
@@ -270,3 +268,100 @@ function sockMerchant(n, ar) {
 }
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// Given two strings s1 and s2 check if they are anagrams.
+function areAnagrams(s1, s2){
+    if(s1.length !== s2.length){
+        return console.log(false)
+    }
+    let freq1 = {};
+    let freq2 = {}
+    s1.forEach(ch => {
+        if(ch in freq1){
+            freq1[ch] += 1
+        }else {
+            freq1[ch] = 1
+        }
+
+    })
+    s2.forEach(ch => {
+        if(ch in freq2){
+            freq2[ch] += 1
+        }else {
+            freq1[ch] = 1
+        }
+
+    })   
+    console.log(freq1,freq2)
+}
+
+let string1 = 'Ben'
+let string2 = 'Neb'
+
+// areAnagrams(string1, string2)
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+// You must write an algorithm with O(log n) runtime complexity.
+
+
+let serchInsert = function(nums, target){
+    if(!nums) return console.log(0);
+    let left = 0
+    let right = nums.length -1
+    if(target > nums[nums.length -1]) return console.log(nums.length)
+    else if(target <= nums[0]) return console.log(0)
+    else{
+        while(left <= right){
+            let mid = left + Math.floor((right - left) /2)
+            if(nums[mid] === target) return console.log(mid)
+            else if(nums[mid] > target) {
+                right = mid -1
+            }
+            else{
+                left = mid + 1
+            }
+        }
+        return console.log(left)
+    }
+}
+let testNum11 = [1,3,5,6]
+let tar1 = 5
+let testNum22 = [1,3,5,6]
+let tar2 = 2
+let testNum33 = [1,3,5,6]
+let tar3 = 7
+// serchInsert(testNum11, tar1)
+// serchInsert(testNum11, tar2)
+// serchInsert(testNum11, tar3)
+// /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+let mergeTwoLists = function(l1,l2){
+    // Error check 
+    if(l1 == null && l2 == null){
+        return null
+    }
+    let firstTime = true;
+    let mergeHead = new listNode()
+    mergeEnd = mergeHead
+
+    while(l1 && l2){
+        if(firstTime) {
+            firstTime = false
+            if(l1.val < l2.val){
+                mergeHead.val =l1.val
+                l1 =l1.next
+            }else {
+                mergeHead.val = l2.val
+                l2 =l2.next
+            }
+        }
+        else{
+            if(l1.val < l2.val){
+                mergeEnd.next = 
+            }
+        }
+    }
+}
