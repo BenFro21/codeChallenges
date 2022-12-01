@@ -365,3 +365,20 @@ let mergeTwoLists = function(l1,l2){
         }
     }
 }
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+// Given an integer array nums, find the subarray which has the largest sum and return its sum.
+var maxSubArray = function(nums) {
+    //first index > ? < index positive to positive range 
+    // create smaller arrays that start with positve and end with positive then compare
+    const len = nums.length
+    let sum = 0
+    let maxSum = -Infinity
+    for(let i= 0; i < len; i++){
+       sum = Math.max(nums[i], sum + nums[i])
+       maxSum = Math.max(sum, maxSum)
+    }
+    return maxSum
+};
