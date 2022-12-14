@@ -1,0 +1,1 @@
+parseInt("3") // changes the string '3' into a number 3
