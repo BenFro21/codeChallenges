@@ -79,16 +79,24 @@ function stringParameterize(str){
 // 8. Write a JavaScript function to capitalize the first letter of a string. 
 // Test Data :"Js string exercises"
 function capitalize(str){
-   let newStr = str.split('')[0].toUpperCase()
-   return newStr + str
+   let newStr = str.charAt(0).toUpperCase() + str.slice(1,)
+//    console.log(newStr)
+   return newStr
 }
 // console.log(capitalize('js string exercises'));
 
 
 // 9. Write a JavaScript function to capitalize the first letter of each word in a string. 
 // Test Data :
-// console.log(capitalize_Words('js string exercises'));
-// "Js String Exercises"
+function capitalizeWords(str){
+    let newStr = str.split(' ')
+    let len = newStr.length -1
+    for(let i=0; i <= len; i++){
+        newStr[i].charAt(0).toUpperCase() + newStr[i].slice(1)
+    }
+    return newStr
+}
+console.log(capitalizeWords('js string exercises'));
 
 
 // 10. Write a JavaScript function that takes a string which has lower and upper case letters as a parameter and converts upper case letters to lower case, and lower case letters to upper case. 
