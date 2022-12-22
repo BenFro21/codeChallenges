@@ -71,10 +71,94 @@ const palindrome =(str) => {
 // palindrome('abba')
 // palindrome('ben')
 
-(function(str){
-    let reversed = ''
-    for(let x of str){
-        reversed = x + reversed
+// (function(str){
+//     let reversed = ''
+//     for(let x of str){
+//         reversed = x + reversed
+//     }
+//     console.log(str=== reversed)
+// })("david")
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Find the char that appears the most, and how many times does it appear 
+/* 
+for of loop 
+1. create and object. 
+2. if the character of str does not exist in obj, then set its value to 1
+3. if it does, do an increment
+
+for in loop
+4. loop through the values of the object to see wich one has the highest value 
+
+32eddseew3
+#%he3#33ll#
+*/
+const maxChar = (str) => {
+    let obj = {};
+    let maxNum = 0;
+    let maximumChar ='';
+    // the for of loop is saying for the chars of the str. If there is no char then set it equal to one or add one to the char if it already exists  
+    for(let char of str){
+        (!obj[char]) ? obj[char] = 1 : obj[char]++;
     }
-    console.log(str=== reversed)
-})("david")
+    for(let char in obj){
+        if(obj[char] >= maxNum){
+            maxNum = obj[char];
+            maximumChar = char
+        }
+    }
+    console.log(`${maximumChar} appears ${maxNum} times`)
+}
+// maxChar('32eddseew3')
+// maxChar('#%he3#33ll#')
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/* Write Algorithm to REVERSE an integer 
+Steps
+1. Convert to a string
+2. turn into array
+3.reverse method
+4.back to string 
+5. back to int 
+
+test cases 
+51 to 15
+500 to 5
+-15 to -51
+-900 to -9
+*/
+
+const reverseInt = (n) => {
+    if(n<0){
+        return -1 * parseInt(n.toString().split('').reverse().join(''))
+    }
+    return parseInt(n.toString().split('').reverse().join(''))
+}
+// console.log(reverseInt(51))
+// console.log(reverseInt(500))
+// console.log(reverseInt(-15))
+// console.log(reverseInt(-900))
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Fizz buzz
+((num)=>{
+    for(let i=1; i<45; i++){
+        //check for 15
+        if(i % 3 === 0 && i % 5 ===0){
+             console.log('Fizzbuz');
+             ++i
+        }if(i % 3 === 0){
+             console.log('Fizz')
+             ++i
+        }if(i % 5 === 0){
+             console.log('Buzz')
+             ++i
+            
+        }if(i % 3 === 0){
+            console.log('Fizz')
+            ++i
+        }if(i >num) break;
+        else{
+            console.log(i)
+        }
+    }
+})(45)
