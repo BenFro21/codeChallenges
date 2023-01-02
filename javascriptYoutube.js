@@ -140,28 +140,28 @@ const reverseInt = (n) => {
 // console.log(reverseInt(-900))
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Fizz buzz
-((num)=>{
-    for(let i=1; i<45; i++){
-        //check for 15
-        if(i % 3 === 0 && i % 5 ===0){
-             console.log('Fizzbuz');
-             ++i
-        }if(i % 3 === 0){
-             console.log('Fizz')
-             ++i
-        }if(i % 5 === 0){
-             console.log('Buzz')
-             ++i
+// ((num)=>{
+//     for(let i=1; i<45; i++){
+//         //check for 15
+//         if(i % 3 === 0 && i % 5 ===0){
+//              console.log('Fizzbuz');
+//              ++i
+//         }if(i % 3 === 0){
+//              console.log('Fizz')
+//              ++i
+//         }if(i % 5 === 0){
+//              console.log('Buzz')
+//              ++i
             
-        }if(i % 3 === 0){
-            console.log('Fizz')
-            ++i
-        }if(i >num) break;
-        else{
-            console.log(i)
-        }
-    }
-})(45)
+//         }if(i % 3 === 0){
+//             console.log('Fizz')
+//             ++i
+//         }if(i >num) break;
+//         else{
+//             console.log(i)
+//         }
+//     }
+// })(45)
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /* 
 Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
@@ -198,5 +198,119 @@ It is guaranteed that s is a valid roman numeral in the range [1, 3999].
 */
 
 let romanToInt = (num) => {
-    
+
 }
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/* Chuncked Array
+Write a function, 'chunk(arr, n)' that reutrns chuncked array of size n at the least
+1. create an array called "chuncked" =[]
+2. Get the last chunked array within last = "chunked" or the last array
+3. check if last exists OR if the size of last equls to n. if it does exists then push into "chuncked". ELSE push into "last"
+4. return "chunked" 
+*/
+
+let givenArr1 = [1,4,12,3,2,6,-9,0], n1=3
+// return: [[1,4,12],[3,2,6],[-9,0]]
+let givenArr2 = [[1,4,12],[3,2,6],[-9,0]], n2=4
+// return: [[1,4,12,3],[2,6,-9,0]]
+let givenArr3 = [1,4,12,3,2,6,-9,0], n3=7
+// return: [[1,4,12,3,2,6,-9],[0]]
+
+const chunks = (arr, n) => {
+    let chunked = [];
+    for(let elem of arr){    
+        let last = chunked[chunked.length -1]
+        if(!last || last.length ===n){
+            chunked.push([elem])
+        }else{
+            last.push(elem)
+        }
+    }
+    return chunked
+}
+// console.log(chunks(givenArr1, n1))
+// console.log(chunks(givenArr2, n2))
+// console.log(chunks(givenArr3, n3))
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/* Impllement an algorithm to determine if a string has all unique characters 
+1. turn the string into an object
+2. count the values in said object 
+*/
+
+const isUnique = (str => {
+    const obj = {};
+    for(let i of str){
+        (!obj[i]) ? obj[i]=1:obj[i]++
+    }
+    for(let i in obj){
+        if(obj[i] > 1){
+            return false
+        }
+    }
+    return true
+})
+
+// console.log(isUnique('benjamin'))
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/* Check permutatuion 
+given two strings, write a method to decide if one is a permutation of the other 
+1. check if they are the same exact string -else
+2. check the lengths of both string - else
+3. create objects of each one 
+4. check if the objects character count are equal-else
+5. return true 
+*/
+const isObj = (str) => {
+    let obj = {}
+    for(let i of str){
+        (!obj[i] ? obj[i]=1 : obj[i]++)
+    }
+    return obj
+
+}
+
+
+const ispermutation = (str1, str2) => {
+    //check if they are the same string 
+    if(str1===str2){
+        return true
+    }else{
+        //check the length of botyh strings 
+        if(str1.length !== str2.length){
+            return false
+        }else{
+            // create object with other function 
+            const obj1 = isObj(str1)
+            const obj2 = isObj(str2)
+            //4. check if the objects character count are equal-else
+            for(let i in obj1){
+                if(obj1[i] !== obj2[i]){
+                    return false
+                }
+            }
+        }
+    }
+    return true
+}
+// const a = 'ben'
+// const b = "neb"
+// const c ='melissa'
+// const d = 'sasha'
+// console.log(ispermutation(a, d))
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*Write a method to replace all spaces in a string with "%20"
+*/
+const urlIfy = (str, n) => {
+    let newStr = "";
+    for(let i=0; i<n; i++){
+        if(str[i]=== " "){
+            newStr += "%20"
+        }else{
+            newStr += str[i]
+        }
+    }
+    return newStr
+}
+// console.log(urlIfy("My name Is Ben", 14))
