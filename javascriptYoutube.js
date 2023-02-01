@@ -315,19 +315,21 @@ const urlIfy = (str, n) => {
 }
 // console.log(urlIfy("My name Is Ben", 14))
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// Given the root of a binary tree, return the inorder traversal of its nodes' values.
-/**
- * Definition for a binary tree node.
- * function TreeNode(val, left, right) {
- *     this.val = (val===undefined ? 0 : val)
- *     this.left = (left===undefined ? null : left)
- *     this.right = (right===undefined ? null : right)
- * }
- */
-/**
- * @param {TreeNode} root
- * @return {number[]}
- */
-var inorderTraversal = function(root) {
-    
-};
+// Write a function that takes in a list or an array of numbers. The function should return the sum of any numbers from the list that are either greater than 10 or less than 5.
+
+const sumArr = (arr1) => {
+    let total = 0
+    arr1.map(num =>{
+        if(num >= 10 || num <= 5){
+             total += num
+        }else{
+             total
+        }
+        
+    })
+    return total
+}
+
+
+let arr = [1,2,3,4,5,6,7,8,9,10,55]
+console.log(sumArr(arr))
