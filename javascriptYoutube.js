@@ -262,38 +262,38 @@ given two strings, write a method to decide if one is a permutation of the other
 4. check if the objects character count are equal-else
 5. return true 
 */
-const isObj = (str) => {
-    let obj = {}
-    for(let i of str){
-        (!obj[i] ? obj[i]=1 : obj[i]++)
-    }
-    return obj
+// const isObj = (str) => {
+//     let obj = {}
+//     for(let i of str){
+//         (!obj[i] ? obj[i]=1 : obj[i]++)
+//     }
+//     return obj
 
-}
+// }
 
 
-const ispermutation = (str1, str2) => {
-    //check if they are the same string 
-    if(str1===str2){
-        return true
-    }else{
-        //check the length of botyh strings 
-        if(str1.length !== str2.length){
-            return false
-        }else{
-            // create object with other function 
-            const obj1 = isObj(str1)
-            const obj2 = isObj(str2)
-            //4. check if the objects character count are equal-else
-            for(let i in obj1){
-                if(obj1[i] !== obj2[i]){
-                    return false
-                }
-            }
-        }
-    }
-    return true
-}
+// const ispermutation = (str1, str2) => {
+//     //check if they are the same string 
+//     if(str1===str2){
+//         return true
+//     }else{
+//         //check the length of botyh strings 
+//         if(str1.length !== str2.length){
+//             return false
+//         }else{
+//             // create object with other function 
+//             const obj1 = isObj(str1)
+//             const obj2 = isObj(str2)
+//             //4. check if the objects character count are equal-else
+//             for(let i in obj1){
+//                 if(obj1[i] !== obj2[i]){
+//                     return false
+//                 }
+//             }
+//         }
+//     }
+//     return true
+// }
 // const a = 'ben'
 // const b = "neb"
 // const c ='melissa'
@@ -331,5 +331,85 @@ const sumArr = (arr1) => {
 }
 
 
+// let arr = [1,2,3,4,5,6,7,8,9,10,55]
+// console.log(sumArr(arr))
+
+///////////////////////////////////////////////////////////////////////////////////////////
+// write a function that takes in an array of strings and returns the indexs of all the words that start with the letter "b" in a new array 
+
+test1 = ['banana', 'word', 'james', 'boat', 'jet']
+test2 = ['kitty', 'lion', 'tiger', 'panther']
+test3 = ['boat', 'banana', 'buster', 'bullet']
+
+let bWord = (arr) => {
+    let newArr = [];
+    arr.map((word, idx) => {
+        if(word[0] === "b"){
+            newArr.push(idx)
+        }
+    }) 
+    return newArr
+}
+// console.log(bWord(test1))
+// console.log(bWord(test2))
+// console.log(bWord(test3))
+
+
+
+/////////////////////////////////////////////////////////////////
+// Write a function that takes in a list or an array of numbers. The function should return the sum of any numbers from the list that are either greater than 10 or less than 5.
 let arr = [1,2,3,4,5,6,7,8,9,10,55]
-console.log(sumArr(arr))
+
+let sumOfNums = (arr) => {
+    let total = 0
+    arr.map(num => {
+        if(num >= 10 || num <= 5){
+            total += num
+        }
+    }) 
+    return total 
+}
+
+// console.log(sumOfNums(arr))
+///////////////////////////////////////////////////////////////////////////////////////
+/* Check permutatuion 
+given two strings, write a method to decide if one is a permutation of the other 
+1. check if they are the same exact string -else
+2. check the lengths of both string - else
+3. create objects of each one 
+4. check if the objects character count are equal-else
+5. 
+*/
+const isObj = (str) => {
+    let obj = {}
+    for(let i of str){
+        (!obj[i] ? obj[i]=1 : obj[i]++)
+    }
+    return obj
+
+}
+
+let ispermutation = (str1, str2) => {
+    if(str1 === str2){
+        return true 
+    }else{
+        if(str1.length !== str2.length){
+            return false 
+        }else{
+            let obj1 = isObj(str1)
+            let obj2 = isObj(str2)
+            for(let i in obj1){
+                if(obj1[i] !== obj2[i]){
+                    return false
+                }
+            }
+        }
+    }
+    return true 
+}
+
+const a = 'ben'
+const b = "neb"
+const c ='melissa'
+const d = 'sasha'
+console.log(ispermutation(a, b))
