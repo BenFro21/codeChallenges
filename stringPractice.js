@@ -309,32 +309,6 @@ console.log(capitalizeWords('js string exercises'));
 // "PHP - MySQL"
 
 
-// 34. Write a JavaScript function to convert a string to title case. 
-// Test Data :
-// console.log(sentenceCase('PHP exercises. python exercises.'));
-// "Php Exercises. Python Exercises."
-
-
-// 35. Write a JavaScript function to remove HTML/XML tags from string. 
-// Test Data :
-// console.log(strip_html_tags('<p><strong><em>PHP Exercises</em></strong></p>'));
-// "PHP Exercises"
-
-
-// 36. Write a JavaScript function to create a Zerofilled value with optional +, - sign. 
-// Test Data :
-// console.log(zeroFill(120, 5, '-'));
-// "+00120"
-// console.log(zeroFill(29, 4));
-// "0029"
-
-
-// 37. Write a JavaScript function to test case insensitive (except special Unicode characters) string comparison. 
-// Test Data :
-// console.log(compare_strings('abcd', 'AbcD'));
-// true
-// console.log(compare_strings('ABCD', 'Abce'));
-// false
 
 
 // 38. Write a JavaScript function to create a case-insensitive search. 
