@@ -313,43 +313,6 @@ console.log(capitalizeWords('js string exercises'));
 
 // 38. Write a JavaScript function to create a case-insensitive search. 
 // Test Data :
-// console.log(case_insensitive_search('JavaScript Exercises', 'exercises'));
-// "Matched"
-// console.log(case_insensitive_search('JavaScript Exercises', 'Exercises'));
-// "Matched"
-// console.log(case_insensitive_search('JavaScript Exercises', 'Exercisess'));
-// "Not Matched"
-
-
-// 39. Write a JavaScript function to Uncapitalize? the first character of a string. 
-// Test Data :
-// console.log(Uncapitalize('Js string exercises'));
-// "js string exercises"
-
-
-// 40. Write a JavaScript function to Uncapitalize the first letter of each word of a string. 
-// Test Data :
-// console.log(unCapitalize_Words('Js String Exercises'));
-// "js string exercises"
-
-
-// 41. Write a JavaScript function to capitalize each word in the string. 
-// Test Data :
-// console.log(capitalizeWords('js string exercises'));
-// "JS STRING EXERCISES"
-
-
-// 42. Write a JavaScript function to uncapitalize each word in the string. 
-// Test Data :
-// console.log(unCapitalizeWords('JS STRING EXERCISES'));
-// "js string exercises"
-
-
-// 43. Write a JavaScript function to test whether the character at the provided (character) index is upper case. 
-// Test Data :
-// console.log(isUpperCaseAt('Js STRING EXERCISES', 1));
-// false
-
 
 // 44. Write a JavaScript function to test whether the character at the provided (character) index is lower case. 
 // Test Data :
