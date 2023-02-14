@@ -39,25 +39,13 @@
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// Write a function, fibonacciFinder50, that will find the 50th number in the Fibonacci Sequence.
-// Function Name: fibonacciFinder50
-// Input: There are no parameters to this function
-// Output: an integer, the 50th number in the Fibonacci Sequence
-// Example: fibonacciFinder50() => 7778742049
-// In the Fibonacci Sequence 101, the first two numbers are 0 and 1 and every number thereafter is the sum of the previous two numbers in the sequence
-// For this challenge, consider 0 to be the 1st Fibonacci Number, not the 0th (i.e. do not zero-index)
+let bWord = (str) => {
+    if (str[0].toLowerCase() === "b"){
+        console.log(true)
+    }
+}
 
-
-
-// function fibonacciFinder50() {
-//     for(n=0; n<1000; n++){
-//         if (n =50){
-//             console.log('Fib')
-//         }
-//     }
-// }
-
-
+bWord("ben")
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
