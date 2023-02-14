@@ -326,45 +326,11 @@ console.log(capitalizeWords('js string exercises'));
 // console.log(humanize(20));
 // console.log(humanize(302));
 // "1st"
-// "20th"
-// "302nd"
 
-
-// 46. Write a JavaScript function to test whether a string starts with a specified string. 
-// Test Data :
-// console.log(startsWith('js string exercises', 'js'));
-// true
-
-
-// 47. Write a JavaScript function to test whether a string ends with a specified string. 
-// Test Data :
-// console.log(endsWith('JS string exercises', 'exercises'));
-// true
-
-
-// 48. Write a JavaScript function to get the successor of a string. 
-
-// Note: The successor is calculated by incrementing characters starting from the rightmost alphanumeric (or the rightmost character if there are no alphanumerics) in the string. Incrementing a digit always results in another digit, and incrementing a letter results in another letter of the same case. If the increment generates a carry, the character to the left of it is incremented. This process repeats until there is no carry, adding an additional character if necessary.
-// Example :
-// string.successor("abcd") == "abce"
-// string.successor("THX1138") == "THX1139"
-// string.successor("< >") == "< >"
-// string.successor("1999zzz") == "2000aaa"
-// string.successor("ZZZ9999") == "AAAA0000"
-
-// Test Data :
-// console.log(successor('abcd'));
-// console.log(successor('3456'));
-// "abce"
 // "3457"
 
+//asdasd
 
-// 49. Write a JavaScript function to get unique guid (an acronym for 'Globally Unique Identifier?) of the specified length, or 32 by default. 
-// Test Data :
-// console.log(guid());
-// console.log(guid(15));
-// "hRYilcoV7ajokxsYFl1dba41AyE0rUQR"
-// "b7pwBqrZwqaDrex"
 
 
 // 50. Write a JavaScript program to check if a given string contains alphanumeric characters that are palindromes regardless of special characters and letter case. 
