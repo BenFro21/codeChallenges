@@ -48,12 +48,6 @@ let bWord = (str) => {
 bWord("ben")
 
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// Write a function, primeNumberDetector, that tests if a number, n is a prime number.
-// Function Name: primeNumberDetector
-// Input: integer n
-// Output: boolean: true if n is a prime number else false.
-// Example: primeNumberDetector(13) => True
 
 
 
