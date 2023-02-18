@@ -51,13 +51,7 @@ bWord("ben")
 
 
 
-// function primeNumberDetector(n){
-//     if(n % n === 0 && n % 1 === 0){
-//         console.log(true)
-//     }
-// }
 
-// primeNumberDetector(13)
 
 
 
