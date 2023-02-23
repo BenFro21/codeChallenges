@@ -65,12 +65,6 @@ bWord("ben")
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-/// WORD FIZZ BUZZ  MORE ADVANCE FROM GORILLA TESTING 
-// 1) takes in a number and prints a result depending on 
-// If the number ends with 0 it prints 'zero'
-// If the number ends with 5 it prints 'five'
-// If the number is even print 'even'
-//if the number is odd print 'odd'
 
 // function readNum(num){
 //    let strNum = num.toString()
