@@ -66,27 +66,6 @@ bWord("ben")
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-// function readNum(num){
-//    let strNum = num.toString()
-//    let strArry = strNum.split('')
-//    let testNum = strArry.splice(strArry.length -1)
-// //    console.log(testNum )
-//    if(num % 2 === 0 && testNum == 0){
-//     console.log('zero')
-//    }else if(num % 2 !==0 && testNum == 5 ){
-//     console.log('five')
-//    }else if(num % 2 === 0){
-//     console.log('even')
-//    }else if(num % 2 !== 0){
-//     console.log('odd')
-//    }
-// }
-// readNum(1000)
-// readNum(555)
-// readNum(127)
-// readNum(82)
-
-
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
