@@ -68,24 +68,7 @@ bWord("ben")
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
-// An input string is valid if:
-// Open brackets must be closed by the same type of brackets.
-// Open brackets must be closed in the correct order.
-// Every close bracket has a corresponding open bracket of the same type.
 
-
-// var isValid = function(s) {
-//    let splitSArr = s.split('')
-//    splitSArr.map(char => {
-//        if(char[0] === '(' && char[1] === ')'){
-//            return true
-//        }
-//        console.log(char[0])
-//    })
-// };
-
-// isValid('()')
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // You are given the heads of two sorted linked lists list1 and list2.
