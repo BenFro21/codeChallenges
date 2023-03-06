@@ -102,58 +102,6 @@
 
 // Click me to see the solution
 
-// 27. Write a JavaScript program to find every element that exists in any of the two given arrays once, using a provided comparator function. Go to the editor
-
-// Click me to see the solution
-
-// 28. Write a JavaScript program to measure the time taken by a function to execute. Go to the editor
-
-// Click me to see the solution
-
-// 29. Write a JavaScript program to convert a value to a safe integer. Go to the editor
-
-// Click me to see the solution
-
-// 30. Write a JavaScript program to filter out the element(s) of a given array, that have one of the specified values. Go to the editor
-
-// Click me to see the solution
-
-// 31. Write a JavaScript program to find all elements in a given array except for the first one. Return the whole array if the array's length is 1. Go to the editor
-
-// Click me to see the solution
-
-// 32. Write a JavaScript program to get the sum of a given array, after mapping each element to a value using the provided function. Go to the editor
-
-// Click me to see the solution
-
-// 33. Write a JavaScript program to get a random number in the specified range. Go to the editor
-
-// Click me to see the solution
-
-// 34. Write a JavaScript program to get a random integer in the specified range. Go to the editor
-
-// Click me to see the solution
-
-// 35. Write a JavaScript program to get an array of given n random integers in the specified range. Go to the editor
-
-// Click me to see the solution
-
-// 36. Write a JavaScript program to create a function that invokes each provided function with the arguments it receives and returns the results. Go to the editor
-
-// Click me to see the solution
-
-// 37. Write a JavaScript program to get a sorted array of objects ordered by properties and orders. Go to the editor
-
-// Click me to see the solution
-
-// 38. Write a JavaScript program to pad a string on both sides with the specified character, if it's shorter than the specified length. Go to the editor
-
-// Click me to see the solution
-
-// 39. Write a JavaScript program to remove the key-value pairs corresponding to the given keys from an object. Go to the editor
-
-// Click me to see the solution
-
 // 40. Write a JavaScript program to create an array of key-value pair arrays from a given object. Go to the editor
 
 // Click me to see the solution
