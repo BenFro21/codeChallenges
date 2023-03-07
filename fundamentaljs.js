@@ -94,31 +94,7 @@
 
 // Click me to see the solution
 
-// 25. Write a JavaScript program to create a new array out of the two supplied by creating each possible pair from the arrays. Go to the editor
 
-// Click me to see the solution
-
-// 26. Write a JavaScript program that will return true if the string is y/yes or false if the string is n/no. Go to the editor
-
-// Click me to see the solution
-
-// 40. Write a JavaScript program to create an array of key-value pair arrays from a given object. Go to the editor
-
-// Click me to see the solution
-
-// 41. Write a JavaScript program to create an object from the given key-value pairs. Go to the editor
-
-// Click me to see the solution
-
-// 42. Write a JavaScript program to get a customized coalesce function that returns the first argument that returns true from the provided argument validation function. Go to the editor
-
-// Click me to see the solution
-
-// 43. Write a JavaScript program to change function that accepts an array into a variadic function. Go to the editor
-
-// Click me to see the solution
-
-// 44. Write a JavaScript program to remove falsey values from a given array. Go to the editor
 
 // Click me to see the solution
 
