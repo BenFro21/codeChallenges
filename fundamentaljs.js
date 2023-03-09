@@ -98,30 +98,6 @@
 
 // Click me to see the solution
 
-// 45. Write a JavaScript program to split values into two groups, if an element in filter is truthy, the corresponding element in the collection belongs to the first group; otherwise, it belongs to the second group. Go to the editor
-
-// Click me to see the solution
-
-// 46. Write a JavaScript program to curry (curries) a function. Go to the editor
-
-// Click me to see the solution
-
-// 47. Write a JavaScript program to perform a deep comparison between two values to determine if they are equivalent. Go to the editor
-
-// Click me to see the solution
-
-// 48. Write a JavaScript program to get an array of function property names from own (and optionally inherited) enumerable properties of an object. Go to the editor
-
-// Click me to see the solution
-
-// 49. Write a JavaScript program to retrieve a set of properties indicated by the given selectors from an object. Go to the editor
-
-// Click me to see the solution
-
-// 50. Write a JavaScript program to convert an integer to a suffixed string, adding am or pm based on its value. Go to the editor
-
-// Click me to see the solution
-
 // 51. Write a JavaScript program to get an object containing the parameters of the current URL. Go to the editor
 
 // Click me to see the solution
