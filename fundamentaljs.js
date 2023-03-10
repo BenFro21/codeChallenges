@@ -90,35 +90,6 @@
 
 // Click me to see the solution
 
-// 24. Write a JavaScript program to dcapitalize the first letter of a string. Go to the editor
-
-// Click me to see the solution
-
-
-
-// Click me to see the solution
-
-// 51. Write a JavaScript program to get an object containing the parameters of the current URL. Go to the editor
-
-// Click me to see the solution
-
-// 52. Write a JavaScript program to group the elements of a given array based on the given function. Go to the editor
-
-// Click me to see the solution
-
-// 53. Write a JavaScript program to Initialize a two dimension array of given width and height and value. Go to the editor
-
-// Click me to see the solution
-
-// 54. Write a JavaScript program to initialize an array containing the numbers in the specified range where start and end are inclusive with their common difference step.Go to the editor
-
-// Click me to see the solution
-
-// 55. Write a JavaScript program to Join all given URL segments together, then normalizes the resulting URL. Go to the editor
-
-// Click me to see the solution
-
-// 56. Write a JavaScript program to check whether all elements in a given array are equal or not. Go to the editor
 
 // Click me to see the solution
 
