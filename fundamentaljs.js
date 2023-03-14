@@ -1,37 +1,5 @@
 // 1. Write a JavaScript program to compare two objects to determine if the first one contains equivalent property values to the second one. Go to the editor
 
-// Click me to see the solution
-
-// 2. Write a JavaScript program to copy a string to the clipboard. Go to the editor
-
-// Click me to see the solution
-
-// 3. Write a JavaScript program to converts a comma-separated values (CSV) string to a 2D array. Go to the editor
-
-// Click me to see the solution
-
-
-// Click me to see the solution
-
-// 64. Write a JavaScript program to get the first non-null / undefined argument. Go to the editor
-
-// Click me to see the solution
-
-// 65. Write a JavaScript program to add special characters to text to print in color in the console (combined with console.log()). Go to the editor
-
-// Click me to see the solution
-
-// 66. Write a JavaScript program to perform right-to-left function composition. Go to the editor
-
-// Click me to see the solution
-
-// 67. Write a JavaScript program to perform left-to-right function composition. Go to the editor
-
-// Click me to see the solution
-
-// 68. Write a JavaScript program that accepts a converging function and a list of branching functions and returns a function that applies each branching function to the arguments and the results of the branching functions are passed as arguments to the converging function. Go to the editor
-
-// Click me to see the solution
 
 // 69. Write a JavaScript program to group the elements of an array based on the given function and returns the count of elements in each group. Go to the editor
 
