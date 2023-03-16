@@ -1,33 +1,6 @@
 // 1. Write a JavaScript program to compare two objects to determine if the first one contains equivalent property values to the second one. Go to the editor
 
 
-// 69. Write a JavaScript program to group the elements of an array based on the given function and returns the count of elements in each group. Go to the editor
-
-// Click me to see the solution
-
-// 70. Write a JavaScript program to count the occurrences of a value in an array. Go to the editor
-
-// Click me to see the solution
-
-// 71. Write a JavaScript program to create a deep clone of an object. Go to the editor
-
-// Click me to see the solution
-
-// 72. Write a JavaScript program to detect whether the website is being opened in a mobile device or a desktop/laptop. Go to the editor
-
-// Click me to see the solution
-
-// 73. Write a JavaScript program to return the difference between two arrays, after applying the provided function to each array element of both. Go to the editor
-
-// Click me to see the solution
-
-// 74. Write a JavaScript program to filter out all values from an array for which the comparator function does not return true. Go to the editor
-
-// Click me to see the solution
-
-// 75. Write a JavaScript program to compute the new ratings between two or more opponents using the Elo rating system. It takes an array of pre-ratings and returns an array containing post-ratings. The array should be ordered from best performer to worst performer (winner -> loser). Go to the editor
-
-// Click me to see the solution
 
 // 76. Write a JavaScript program to execute a provided function once for each array element, starting from the array's last element.Go to the editor
 
