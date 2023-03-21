@@ -7,29 +7,6 @@
 
 // 90. Write a JavaScript program to nest a given flat array of objects linked to one another recursively. Go to the editor
 
-// Click me to see the solution
-
-// 91. Write a JavaScript program that will return true if the provided predicate function returns false for all elements in a collection, false otherwise. Go to the editor
-
-// Click me to see the solution
-
-// 92. Write a JavaScript program to create a function that gets the argument at index n. If n is negative, the nth argument from the end is returned. Go to the editor
-
-// Click me to see the solution
-
-// 93. Write a JavaScript program to remove an event listener from an element. Go to the editor
-
-// Click me to see the solution
-
-// 94. Write a JavaScript program to move the specified amount of elements to the end of the array. Go to the editor
-
-// Click me to see the solution
-
-// 95. Write a JavaScript program to add an event listener to an element with the ability to use event delegation. Go to the editor
-
-// Click me to see the solution
-
-// 96. Write a JavaScript program to pick the key-value pairs corresponding to the given keys from an object. Go to the editor
 
 // Click me to see the solution
 
