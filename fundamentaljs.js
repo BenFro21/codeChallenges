@@ -1,36 +1,3 @@
-// 1. Write a JavaScript program to compare two objects to determine if the first one contains equivalent property values to the second one. Go to the editor
-
-
-// 89. Write a JavaScript program to negates a predicate function.Go to the editor
-
-// Click me to see the solution
-
-// 90. Write a JavaScript program to nest a given flat array of objects linked to one another recursively. Go to the editor
-
-
-// Click me to see the solution
-
-// 97. Write a JavaScript program to create an object composed of the properties the given function returns truthy for. The function is invoked with two arguments: (value, key). Go to the editor
-
-// Click me to see the solution
-
-// 98. Write a JavaScript program to filter an array of objects based on a condition while also filtering out unspecified keys. Go to the editor
-
-// Click me to see the solution
-
-// 99. Write a JavaScript program to hash a given input string into a whole number. Go to the editor
-
-// Click me to see the solution
-
-// 100. Write a JavaScript program to create an array of elements, grouped based on the position in the original arrays and using function as the last value to specify how grouped values should be combined. Go to the editor
-
-// Click me to see the solution
-
-// 101. Write a JavaScript program to return the object associating the properties to the values of a given array of valid property identifiers and an array of values. Go to the editor
-
-// Click me to see the solution
-
-// 102. Write a JavaScript program to create an array of elements, grouped based on the position in the original arrays. Go to the editor
 
 // Click me to see the solution
 
