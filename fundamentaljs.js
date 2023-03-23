@@ -7,29 +7,7 @@
 
 // 104. Write a JavaScript program to test a value, x, against a predicate function. If true, return fn(x). Else, return x. Go to the editor
 
-// Click me to see the solution
-
-// 105. Write a JavaScript program that return true if the given value is a number, false otherwise. Go to the editor
-
-// Click me to see the solution
-
-// 106. Write a JavaScript program to create an array of elements, ungrouping the elements in an array produced by zip and applying the provided function. Go to the editor
-
-// Click me to see the solution
-
-// 107. Write a JavaScript program to get all unique values (form the right side of the array) of an array, based on a provided comparator function.Go to the editor
-
-// Click me to see the solution
-
-// 108. Write a JavaScript program to get all unique values of an array, based on a provided comparator function. Go to the editor
-
-// Click me to see the solution
-
-// 109. Write a JavaScript program to get the nth element of a given array. Go to the editor
-
-// Click me to see the solution
-
-// 110. Write a JavaScript program to get every element that exists in any of the two arrays once. Go to the editor
+//f the two arrays once. Go to the editor
 
 // Click me to see the solution
 
