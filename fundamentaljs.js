@@ -7,36 +7,7 @@
 
 // 104. Write a JavaScript program to test a value, x, against a predicate function. If true, return fn(x). Else, return x. Go to the editor
 
-//f the two arrays once. Go to the editor
-
-// Click me to see the solution
-
-// 111. Write a JavaScript program to build an array, using an iterator function and an initial seed value. Go to the editor
-
-// Click me to see the solution
-
-// 112. Write a JavaScript program to unflatten an object with the paths for keys. Go to the editor
-
-// Click me to see the solution
-
-// 113. Write a JavaScript program to unescape escaped HTML characters. Go to the editor
-
-// Click me to see the solution
-
-// 114. Write a JavaScript program to uncurry a function up to depth n. Go to the editor
-
-// Click me to see the solution
-
-// 115. Write a JavaScript program to create a function that accepts up to one argument, ignoring any additional arguments.Go to the editor
-
-// Click me to see the solution
-
-// 116. Write a JavaScript program to check if the predicate (second argument) is truthy on all elements of a collection (first argument). Go to the editor
-
-// Click me to see the solution
-
-// 117. Write a JavaScript program to truncate a string up to a specified length. Go to the editor
-
+/
 // Click me to see the solution
 
 // 118. Write a JavaScript program to apply a function against an accumulator and each key in the object (from left to right). Go to the editor
