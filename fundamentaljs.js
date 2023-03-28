@@ -7,36 +7,7 @@
 
 // 104. Write a JavaScript program to test a value, x, against a predicate function. If true, return fn(x). Else, return x. Go to the editor
 
-/
-// Click me to see the solution
 
-// 118. Write a JavaScript program to apply a function against an accumulator and each key in the object (from left to right). Go to the editor
-
-// Click me to see the solution
-
-// 119. Write a JavaScript program to create tomorrow's date in a string representation. Go to the editor
-
-// Click me to see the solution
-
-// 120. Write a JavaScript program to convert a string to snake case. Go to the editor
-
-// Click me to see the solution
-
-// 121. Write a JavaScript program to convert a value to a safe integer. Go to the editor
-
-// Click me to see the solution
-
-// 122. Write a JavaScript program to add an ordinal suffix to a number. Go to the editor
-
-// Click me to see the solution
-
-// 123. Write a JavaScript program to convert a string to kebab case. Go to the editor
-
-// Click me to see the solution
-
-// 124. Write a JavaScript program to reduce a given Array-like into a value hash (keyed data store). Go to the editor
-
-// Click me to see the solution
 
 // 125. Write a JavaScript program to convert a float-point arithmetic to the Decimal mark form and It will make a comma separated string from a number. Go to the editor
 
