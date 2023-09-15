@@ -14,21 +14,6 @@
 // [1, 2, [4, 0]]
 // Click me to see the solution
 
-// 3. Write a JavaScript function to get the first element of an array. Passing a parameter 'n' will return the first 'n' elements of the array. Go to the editor
-// Test Data :
-// console.log(first([7, 9, 0, -2]));
-// console.log(first([],3));
-// console.log(first([7, 9, 0, -2],3));
-// console.log(first([7, 9, 0, -2],6));
-// console.log(first([7, 9, 0, -2],-3));
-// Expected Output :
-// 7
-// []
-// [7, 9, 0]
-// [7, 9, 0, -2]
-// []
-// Click me to see the solution
-
 // 4. Write a JavaScript function to get the last element of an array. Passing a parameter 'n' will return the last 'n' elements of the array. Go to the editor
 // Test Data :
 // console.log(last([7, 9, 0, -2]));
@@ -161,7 +146,7 @@
 // 25. Write a JavaScript function to sort the following array of objects by title value. Go to the editor
 // Sample object :
 
-// var library = [ 
+// var library = [
 //    { author: 'Bill Gates', title: 'The Road Ahead', libraryID: 1254},
 //    { author: 'Steve Jobs', title: 'Walter Isaacson', libraryID: 4264},
 //    { author: 'Suzanne Collins', title: 'Mockingjay: The Final Book of The Hunger Games', libraryID: 3245}
@@ -457,4 +442,3 @@
 // Number of arrays inside the said array: 2
 // Number of arrays inside the said array: 3
 // Click me to see the solution
-
